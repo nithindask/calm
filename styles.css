@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff; /* White background */
+    font-family: Arial, sans-serif; /* Use a classic font */
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    border-radius: 50px; /* Make the text box round */
+    background-color: #ffffff; /* White background for text box */
+    padding: 20px; /* Add padding to the text box */
+    display: inline-block;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .centered-text {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+.no-underline {
+    text-decoration: none;
+    color: black; /* Change the color to black or any other desired color */
+}
+
+
+.play-button {
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+
